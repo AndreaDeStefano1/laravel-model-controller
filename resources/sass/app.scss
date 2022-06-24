@@ -1,1 +1,29 @@
-//
+main{
+    min-height: 702px;
+}
+a{
+    text-decoration: none;
+}
+
+
+.film-card{
+    .film-vote{
+        position: absolute;
+        background-color: white;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        right: 10px;
+        top: 10px;
+        span{
+            line-height: 34px;
+        }
+    }
+    .no-img-advs{
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+
+}
